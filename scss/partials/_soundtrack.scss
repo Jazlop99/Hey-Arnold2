@@ -1,0 +1,30 @@
+.main-soundtrack{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+background-color:  rgb(201, 201, 183);;
+    h1 {
+    font-family: "typo-her-arnold";
+    padding: 15px;
+    margin: 10px;
+    width: 400px;
+    background-color: #FFCD00;
+}
+p {
+    padding: 10px;
+    margin: 30px;
+    width: 1000px;
+    background-color: beige;
+    border-radius: 10px;
+
+}
+}
+.iframe-spotify {
+    width: 500px;
+    height: 500px;
+}
+
+.iframe-yt {
+    width: 800px;
+    height: 400px;
+}

@@ -1,0 +1,86 @@
+.main-temporadas h1 {
+    font-family: "typo-her-arnold";
+    padding: 15px;
+    margin: 30px;
+    width: 1000px;
+    background-color: #FFCD00;
+    display: flex;
+    justify-content: center;
+}
+
+.main-temporadas section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.main-temporadas div {
+    padding: 10px;
+    margin: 30px;
+    height: 600px;
+    width: 400px;
+    background-color: beige;
+}
+
+.main-temporadas a {
+    height: 30px;
+    background-color: #FFCD00;
+    color: black;
+    text-decoration: none;
+    font-family: "typo-her-arnold";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-temporadas a:hover {
+    color: white;
+}
+
+.main-temporadas img {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+@media (max-width:500px) {
+    .main-temporadas img {
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+        width: 280px;
+
+    }
+}
+    .main-temporadas div {
+        padding: 10px;
+        margin: 30px;
+        height: 480px;
+        width: 400px;
+        background-color: beige;
+        border-radius: 10px;
+
+    }
+
+    .main-temporadas a {
+        height: 30px;
+        background-color: #FFCD00;
+        color: black;
+        text-decoration: none;
+        font-family: "typo-her-arnold";
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        border-radius: 10px;
+    }
+
+    .main-temporadas{
+        background-color:  rgb(201, 201, 183);;
+    }
